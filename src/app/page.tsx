@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Award, Coffee, Heart, Leaf, Mail } from "lucide-react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
@@ -154,8 +154,7 @@ export default function Home() {
               company: "TechStart Inc",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/5244025/pexels-photo-5244025.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Sarah Mitchell smiling",
-              content: "The coffee quality here is unmatched. From their signature lattes to the cold brew, everything is crafted with exceptional attention to detail."
+              imageAlt: "Sarah Mitchell smiling"
             },
             {
               id: "2",
@@ -164,8 +163,7 @@ export default function Home() {
               company: "Creative Studios",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/16756653/pexels-photo-16756653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "James Rodriguez with coffee",
-              content: "Brew & Bean has become my go-to workspace. Great atmosphere, amazing coffee, and the baristas truly know their craft."
+              imageAlt: "James Rodriguez with coffee"
             },
             {
               id: "3",
@@ -174,8 +172,7 @@ export default function Home() {
               company: "Chen & Associates",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/6973116/pexels-photo-6973116.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Emily Chen friendly smile",
-              content: "I love supporting a business that cares about sustainability and community. Plus, their espresso is absolutely perfect every time."
+              imageAlt: "Emily Chen friendly smile"
             },
             {
               id: "4",
@@ -184,8 +181,7 @@ export default function Home() {
               company: "Innovation Labs",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Michael Thompson professional",
-              content: "The consistency and quality here is remarkable. Whether it's a quick morning espresso or an afternoon latte, it's always perfection."
+              imageAlt: "Michael Thompson professional"
             }
           ]}
         />
